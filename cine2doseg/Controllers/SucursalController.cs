@@ -79,7 +79,7 @@ namespace cine2doseg.Controllers
                 objRespuesta.ban = int.Parse(ds.Tables[0].Rows[0][0].ToString());
                 jsonResp.Add("msgData", "Registro de usuario exitoso (cine)");
                 objRespuesta.datos = jsonResp;
-
+                // wuenas
             }
             catch (Exception ex)
             {
